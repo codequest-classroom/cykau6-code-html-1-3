@@ -1,14 +1,14 @@
-# 🚀 **MISSION: {{mission.title}}** 
+# 🚀 **MISSION: Links and Images** 
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Points-{{mission.points}}-brightgreen?style=for-the-badge" alt="Points"/>
-  <img src="https://img.shields.io/badge/Badge-{{mission.badge}}-blue?style=for-the-badge" alt="Badge"/>
-  <img src="https://img.shields.io/badge/Level-{{mission.level}}-orange?style=for-the-badge" alt="Level"/>
+  <img src="https://img.shields.io/badge/Points-5-brightgreen?style=for-the-badge" alt="Points"/>
+  <img src="https://img.shields.io/badge/Badge-html-novice-blue?style=for-the-badge" alt="Badge"/>
+  <img src="https://img.shields.io/badge/Level-web-level-1-orange?style=for-the-badge" alt="Level"/>
 </p>
 
 ---
 
-## 👋 **HEY {{student.name}}!** 
+## 👋 **HEY TEST!** 
 
 <div align="center">
   <img src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif" width="200" alt="Coding gif"/>
@@ -26,7 +26,7 @@ Welcome to your next coding challenge! Get ready to level up your skills! 🎮
 <br>
 
 ### 🎯 **What You'll Learn**
-{{mission.description}}
+Add links and images to your page
 
 ### 📖 **Step-by-Step Guide**
 
@@ -78,7 +78,7 @@ Now modify this code to make it YOUR own!
 
 <div align="center">
   
-[![OPEN IN STACKBLITZ](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/codequest-classroom/{{repo-name}})
+[![OPEN IN STACKBLITZ](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/codequest-classroom/cykau6-code-html-1-3)
 
 **✨ One click → Instant coding environment! No installation needed! ✨**
 
@@ -90,22 +90,28 @@ Now modify this code to make it YOUR own!
 
 <div style="border-left: 4px solid #4CAF50; padding-left: 20px; margin: 20px 0;">
   
-### {{mission.instructions}}
+### Add links and images to your page
 
 </div>
 
 ### ✅ **CHECKLIST**
 
-{{#each mission.requirements}}
-- [ ] {{this}}
-{{/each}}
+
+- [ ] Must have an anchor tag <a> with href
+
+
+- [ ] Must have an image tag <img> with src
+
+
+- [ ] Image must have alt attribute
+
 
 ---
 
 ## 📁 **YOUR FILES**
 
 ```
-📦 {{repo-name}}
+📦 cykau6-code-html-1-3
  ┣ 📂 submissions
  ┃ ┣ 📜 index.html     ← Write your HTML here!
  ┃ ┗ 📜 style.css      ← Write your CSS here!
@@ -182,7 +188,7 @@ Now modify this code to make it YOUR own!
 
 | Complete Mission | Earn |
 |-----------------|------|
-| ✅ Pass all checks | ⭐ {{mission.points}} XP |
+| ✅ Pass all checks | ⭐ 5 XP |
 | 🎯 First try | 💪 Bonus confidence boost! |
 | 🏅 Get badge | 🔓 Unlock next mission |
 
@@ -203,7 +209,7 @@ Now modify this code to make it YOUR own!
   
 ### 🎉 **READY? LET'S DO THIS!** 🎉
 
-[![START CODING](https://img.shields.io/badge/🚀-CLICK_TO_START_CODING-4CAF50?style=for-the-badge&logo=github)](https://stackblitz.com/github/codequest-classroom/{{repo-name}})
+[![START CODING](https://img.shields.io/badge/🚀-CLICK_TO_START_CODING-4CAF50?style=for-the-badge&logo=github)](https://stackblitz.com/github/codequest-classroom/cykau6-code-html-1-3)
 
 *Remember: Every expert was once a beginner. You've got this!* 💪
 
